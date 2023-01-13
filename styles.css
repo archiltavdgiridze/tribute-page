@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;400;600;800&display=swap');
+
+
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+/* ~ image section */
+#img-div {
+  margin: 0 20px 40px;
+}
+
+#img-div img {
+  display: block;
+  margin: auto auto 20px auto;
+  border: 1px solid black;
+}
+
+#image {
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ~ title section */
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.title-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #333;
+}
+
+.title-section p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ~ image section */
+#img-div {
+  margin: 0 20px 40px;
+}
+
+#img-div img {
+  display: block;
+  margin: auto auto 20px auto;
+  border: 1px solid black;
+}
+
+#image {
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ~ tribute css */
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#tribute-info h3 {
+  margin-top: 10px;
+}
+
+#tribute-info ul {
+  max-width: 800px;
+  padding: 0 0 0 1rem;
+}
+
+#tribute-info li {
+  margin: 0 0 10px 0;
+}
+
+#tribute-info blockquote {
+  max-width: 1000px;
+  margin: 0 0 40px 0;
+  padding: 0 0 0 1rem;
+  border-left: 3px solid #333;
+}
+
+.additional-info {
+  margin-bottom: 80px;
+}
+
+/* ~ media queries */
+@media screen and (min-width: 100px) {
+  .title-section h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .title-section p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title-section h1 {
+    font-size: 3rem;
+  }
+
+  .title-section p {
+    font-size: 1.5rem;
+  }
+
+  #tribute-info li {
+    font-size: 1.2rem;
+  }
+
+  #tribute-info #headline {
+    font-size: 1.5rem;
+  }
+
+  #tribute-info blockquote {
+    font-size: 1.5rem;
+  }
+}
